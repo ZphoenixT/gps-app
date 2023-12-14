@@ -1,0 +1,16 @@
+
+/*----map----*/
+#map {
+    height: 100dvh;
+    width: 100%vw;
+    background-color: aqua;
+}
+
+.mapboxgl-ctrl-logo {
+    display: none !important;
+}
+
+.mapboxgl-ctrl-attrib-inner {
+    display: none !important;
+}
+/*----end of map----*/
