@@ -1,1 +1,1 @@
-(here)[https://zphoenixt.github.io/gps-app/]
+[here](https://zphoenixt.github.io/gps-app/)
