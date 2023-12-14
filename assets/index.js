@@ -1,6 +1,6 @@
 'use strict';
 
-    console.log('test text');
+const button = document.querySelector('.track-package')
 
     function getLocation(position) {
         let { longitude, latitude } = position.coords;
@@ -26,6 +26,11 @@
         console.log(error.message);
     }
 
+    const options = {
+        enableHighAccuracy: true,
+        maximumAge: 0
+    }
+
     button.addEventListener('click', () => {
         if ('geolocation' in navigator) {
             const geo = navigator.geolocation;
@@ -42,10 +47,3 @@ map.doubleClickZoom.disable();
 map.touchZoomRotate,disable();
 
 
-const options = {
-    enableHighAccuracy: true,
-    maximumAge: 0
-}
-
-
-getLocation();
